@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Array Activities</title>
+    <!-- <script src="arrays.js"></script> -->
+  </head>
+  <body>
+    <ul id="myList"></ul>
+    <p></p>
+    <p class="lucky"></p>
+    <script>
+      let steps = ["one", "two", "three", "four"];
+      let stepsHTML = steps.map(function (step) {
+        return `<li> ${step}<\li>`;
+      });
+
+      document.querySelector("#myList").innerHTML = stepsHTML.join("");
+
+      let grades = ["A", "B", "C"];
+      function letterGrade(grade) {
+        let point = 0;
+        if (grade === "A") {
+          point = 4;
+        } else if (grade === "B") {
+          point = 3;
+        }
+        return point;
+      }
+      const gpaPoints = grades.map(letterGrade);
+
+      //   let pointsTotal = gpa.reduce(function (total, item) {
+      //     return total + point;
+      //   });
+      //   let pga = pointsTotal / gpaPointslength;
+      //arrow function
+      //   let pointsTotal = gpa.reduce((total, item) => total + item);
+      //   let gpa = pointsTotal / gpaPoints;
+      const gpa =
+        gpaPoints.reduce((total, item) => total + item) / gpaPoints.length;
+
+      //declare an array ******** Filter
+      const friuts = ["water melon", "peach", "apple", "tomatoe", "grape"];
+      // const longerFruits = friuts.filter(function(fruit){
+      //   return fruit.length > 6;
+      // });
+      //with arrow function
+      const longerFruits = friuts.filter((fruit) => friuts.length < 6);
+      document.querySelector("p").innerHTML = longerFruits.join("<br>");
+
+      //******* indexOf
+      let numbers = [12, 3, 4, 21, 54];
+      let luckNumber = 21;
+      let luckyNumber = numbers.indexOf(luckNumber);
+      document.querySelector(".lucky").innerHTML = luckyNumber;
+    </script>
+  </body>
+</html>

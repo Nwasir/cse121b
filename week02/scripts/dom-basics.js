@@ -8,7 +8,7 @@ newImage.setAttribute("alt", "Description of image");
 document.body.appendChild(newImage);
 
 const newDiv = document.createElement("div");
-newDiv.innerHTML = "<ul><li>One</li><li>Two</li><li>Three</li></ul>";
+newDiv.innerHTML = "<h2>Welcome to Javascript Language</h2><ul><li>One</li><li>Two</li><li>Three</li></ul>";
 document.body.appendChild(newDiv);
 
 const newSection = document.createElement('section');
