@@ -104,6 +104,7 @@ async function getTemples() {
     // Step 6: Finally, call the output function and pass it the list of temples. Execute your getTemples function to make sure it works correctly.
     output(templeList);   
 }
+
 getTemples();
 // Step 7: Declare a function named reset that clears all of the <article>
 // elements from the HTML element with an ID of temples
