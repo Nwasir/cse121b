@@ -8,5 +8,5 @@ function pickRandom() {
   let fruit = fruits[Math.floor(Math.random() * fruits.length)];
 
   let result = `${name} ${verb} a ${fruit}`;
-  document.getElementById('result').textContent = result;
+  document.querySelector('#result').innerHTML = result;
 }
