@@ -22,9 +22,9 @@ imageElement.setAttribute("src", ProfilePicture);
 imageElement.setAttribute("src", ProfilePicture);
 
 /* Step 5 - Array */
-let favoriteFood = ["garri", " beans", " yam", " ofe akwu"];
+let favoriteFood = ["Garri", " Beans", " Yam", " Ofe akwu"];
 foodElement.innerHTML = `${favoriteFood}`;
-let food = " egusi soup";
+let food = " Egusi soup";
 favoriteFood.push(food);
 foodElement.innerHTML += `<br>${favoriteFood}`;
 favoriteFood.shift();
