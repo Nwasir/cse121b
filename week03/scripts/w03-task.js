@@ -7,27 +7,44 @@ function add(number1, number2) {
 }
 
 function addNumbers() {
-  let addNumber1 = parseFloat(document.querySelector("#add1").value);
-  let addNumber2 = parseFloat(document.querySelector("#add2").value);
+  const addNumber1 = parseFloat(document.querySelector("#add1").value);
+  const addNumber2 = parseFloat(document.querySelector("#add2").value);
   document.querySelector("#sum").value = add(addNumber1 + addNumber2);
 }
 document.querySelector("#addNumbers").addEventListener("click", addNumbers);
 
 /* Function Expression - Subtract Numbers */
-let Subtract = function (Subtract1, Subtract2) {
+const Subtract = function (Subtract1, Subtract2) {
   return Subtract - Subtract1 - Subtract2;
-};
+}
 
-let SubtractNumbers = function () {
-  let SubtractNumbers1 = parseInt(document.querySelector("#subtract1").value);
-  let SubtractNumbers2 = parseInt(document.querySelector("#subtract2").value);
+const SubtractNumbers = function () {
+  const SubtractNumbers1 = parseFloat(document.querySelector("#subtract1").value);
+  const SubtractNumbers2 = parseFloat(document.querySelector("#subtract2").value);
   document.querySelector("#difference").value = Subtract(SubtractNumbers1, SubtractNumbers2);
-};
+}
 document.querySelector('#subtractNumbers').addEventListener('click', SubtractNumbers);
 
 /* Arrow Function - Multiply Numbers */
+const multiply = (factor1, factor2) => factor1 * factor2;
+
+const multiplyNumbers = () => {
+  const firstNumber = parseFloat(document.querySelector('#factor1').value);
+  const secondNumber = parseFloat(document.querySelector('#factor2').value);
+  document.querySelector('#product').value = multiply(firstNumber, secondNumber);
+
+}
+document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);
 
 /* Open Function Use - Divide Numbers */
+const divide = (dividend, divisor) => dividend / divisor;
+
+function divideNumbers() {
+  const firstNumber = parseFloat(document.querySelector('#dividend').value);
+  const secondNumber = parseFloat(document.querySelector('#divisor').value);
+  document.querySelector('#quotient').value = divide(firstNumber, secondNumber);
+}
+document.querySelector('#divideNumbers').addEventListener('click', divideNumbers);
 
 /* Decision Structure */
 
