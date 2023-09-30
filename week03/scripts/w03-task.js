@@ -47,7 +47,14 @@ function divideNumbers() {
 document.querySelector('#divideNumbers').addEventListener('click', divideNumbers);
 
 /* Decision Structure */
-
+// Declare and instantiate a variable of to store the current date.
+const currentDate = new Date();
+// Declare a variable to hold the current year.
+// Using the variable declared in number 1, call the built-in getFullYear() method/function and assign it to the variable declared in 2.
+const currentYear = currentDate.getFullYear();
+// Assign the current year variable to an HTML form element with an ID of year.
+let yearElement = document.querySelector('year');
+yearElement.value = currentYear
 /* ARRAY METHODS - Functional Programming */
 /* Output Source Array */
 
