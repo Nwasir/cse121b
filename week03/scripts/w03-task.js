@@ -53,17 +53,32 @@ const currentDate = new Date();
 // Using the variable declared in number 1, call the built-in getFullYear() method/function and assign it to the variable declared in 2.
 const currentYear = currentDate.getFullYear();
 // Assign the current year variable to an HTML form element with an ID of year.
-let yearElement = document.querySelector('year');
-yearElement.value = currentYear
+const yearElement = document.querySelector('#year');
+yearElement.value = currentYear;
+
 /* ARRAY METHODS - Functional Programming */
 /* Output Source Array */
-
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+const oddNumbers = numbers.filter(number => number % 2 !== 0);
+// Assign the filtered result to the HTML element with ID "odds"
 /* Output Odds Only Array */
-
-/* Output Evens Only Array */
+document.querySelector("#odds").textContent = oddNumbers.join(', ')
+//Even numbers
+const evenNumbers = numbers.filter(number => number % 2 === 0);
+// const evenElement = document.querySelector('#evens');
+// evenElement.textContent = evenNumbers.join(', ');
+document.querySelector('#evens').textContent = evenNumbers.join(', ');
 
 /* Output Sum of Org. Array */
+const sumNumbers = numbers.reduce((total, number) => total + number);
+document.querySelector('#sumOfArray').textContent = sumNumbers;
 
 /* Output Multiplied by 2 Array */
+const multipleArray = numbers.map(number => number * 2);
+document.querySelector('#multiplied').textContent = multipleArray.join(', ');
 
 /* Output Sum of Multiplied by 2 Array */
+const sumOfMultipliedElement = document.querySelector("#sumOfMultiplied");
+sumOfMultipliedElement.textContent = sum;
+// const sumOfMultiplied = multipleArray.reduce((total, number) => total + number);
+// document.querySelector("#sumOfMultiplied").textContent = sumOfMultiplied;
