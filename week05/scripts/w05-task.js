@@ -28,7 +28,7 @@ templeUrl = "https://byui-cse.github.io/cse121b-ww-course/resources/temples.json
 const getTemples = async () => {
     const response = await fetch(templeUrl);
 
-    if (response.ok){
+    if (response.ok) {
         templeList = await response.json()
     }
 
@@ -45,13 +45,33 @@ const reset = () => {
 const sortBy = (temples) => {
     reset();
 
-    const filter = document.querySelector("#sortBy").value; 
+    const filter = document.querySelector("#sortBy").value;
     
+
     switch (filter) {
         case "utah":
-            displayTemples(temples.filter(temple => temple.location.includes('Utah')));
+            const utaTemple = temples.filter(temple => temple.location.includes('Utah'));
+            displayTemples(utaTemple);
             break;
+        case "notutah":
+            const nonUtah = temples.filter(temple => !temple.location.includes("Utah"));
+            displayTemples(nonUtah);
+            break;
+        case "older":
+            // let dedicatedDate = new Date(temple.dedicate)
+            // const olderTemples = temples.filter(temple => temple.dedicated < new Date(1950, 0, 1));
+            const olderTemples = temples.filter(temple => new Date(temple.dedicatedDate) < new Date(1950, 0, 1));
+            displayTemples(olderTemples);
+            break;
+        case "all":
+            displayTemples(temples);
+            break;
+
     }
+
+    document.querySelector("#sortBy").addEventListener("change", () => {
+         sortBy(templeList);
+         });
 }
 
 
