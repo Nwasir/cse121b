@@ -1,258 +1,247 @@
-{
-    "shirts": [
+ [
       {
-        "name": "Casual Shirt 1",
-        "images": "i",
+        "name": "Shirt 1",
+        "images": "images/shirt1.jpg",
         "prices": 20,
-        "sizes": "s"
+        "sizes": "M"
       },
       {
-        "name": "Casual Shirt 1",
-        "images": "image2.jpg",
+        "name": "Shirt 2",
+        "images": "images/shirt2.jpg",
         "prices": 23,
-        "sizes": "m"
+        "sizes": "M"
       },
       {
-        "name": "Casual Shirt 1",
-        "images": "image3.jpg",
+        "name": "Shirt 3",
+        "images": "images/shirt3.jpg",
         "prices": 24,
         "sizes": "L"
       },
       {
-        "name": "Casual Shirt 1",
-        "images": "image4.jpg",
+        "name": "Shirt 4",
+        "images": "images/shirt4.jpg",
         "prices": 25,
         "sizes": "XL"
       },
       {
-        "name": "Casual Shirt 1",
-        "images": "image5",
+        "name": "Shirt 5",
+        "images": "images/shirt5.jpg",
         "prices": 26,
         "sizes": "XL"
       },
       {
-        "name": "Formal Dress Shirt 1",
-        "images": "image6.jpg",
+        "name": "Shirt 6",
+        "images": "images/shirt6.jpg",
         "prices": 27,
-        "sizes": "XXL"
+        "sizes": "L"
       },
       {
-        "name": "Printed Hawaiian Shirt 1",
-        "images": "image7.jpg",
+        "name": "Shirt 7",
+        "images": "images/shirt7.jpg",
         "prices": 28,
         "sizes": "XXL"
       },
       {
-        "name": "Printed Hawaiian Shirt 1",
-        "images": "image7.jpg",
+        "name": "Shirt 8",
+        "images": "images/shirt8.jpg",
         "prices": 28,
         "sizes": "XXXL"
       },
       {
-        "name": "Printed Hawaiian Shirt 1",
-        "images": "image7.jpg",
+        "name": "Shirt 9",
+        "images": "images/shirt9.jpg",
         "prices": 28,
         "sizes": "XXXL"
       },
       {
-        "name": "Printed Hawaiian Shirt 1",
-        "images": "image7.jpg",
+        "name": "Shirt 10",
+        "images": "images/shirt10.jpg",
         "prices": 28,
         "sizes": "XXL"
-      }
-      
-    ],
-    "suits": [
+      },      
       {
-        "name": "Classic Two-Piece Suit 1",
-        "images": "image7.jpg",
+        "name": "Suit 1",
+        "images": "images/suit1.jpg",
         "prices": 28,
-        "sizes": "XXL"
+        "sizes": "M"
       },
       {
-        "name": "Slim Fit Tuxedo 1",
-        "images": "image7.jpg",
+        "name": "Suit 2",
+        "images": "images/suit2.jpg",
         "prices": 28,
-        "sizes": "XXL"
+        "sizes": "M"
       },
       {
-        "name": "Slim Fit Tuxedo 1",
-        "images": "image7.jpg",
+        "name": "Suit 3",
+        "images": "images/suit3.jpg",
         "prices": 28,
-        "sizes": "XXL"
+        "sizes": "L"
       },
       {
-        "name": "Slim Fit Tuxedo 1",
-        "images": "image7.jpg",
+        "name": "Suit 4",
+        "images": "images/suit4.jpg",
         "prices": 28,
-        "sizes": "XXL"
+        "sizes": "L"
       },
       {
-        "name": "Slim Fit Tuxedo 1",
-        "images": "image7.jpg",
+        "name": "Suit 5",
+        "images": "images/suit5.jpg",
         "prices": 28,
-        "sizes": "XXL"
+        "sizes": "XL"
       },
 
       {
-        "name": "Slim Fit Tuxedo 1",
-        "images": "image7.jpg",
+        "name": "Suit 6",
+        "images": "images/suit6.jpg",
+        "prices": 28,
+        "sizes": "XL"
+      },
+      {
+        "name": "Suit 7",
+        "images": "images/suit7.jpg",
         "prices": 28,
         "sizes": "XXL"
       },
       {
-        "name": "Slim Fit Tuxedo 1",
-        "images": "image7.jpg",
+        "name": "Suit 8",
+        "images": "images/suit8.jpg",
         "prices": 28,
         "sizes": "XXL"
       },
       {
-        "name": "Slim Fit Tuxedo 1",
-        "images": "image7.jpg",
+        "name": "Suit 9",
+        "images": "images/suit9.jpg",
         "prices": 28,
+        "sizes": "XXXL"
+      },
+      {
+        "name": "Suit 10",
+        "images": "images/suit10.jpg",
+        "prices": 28,
+        "sizes": "XXXL"
+      },
+      {
+        "name": "Trousers 1",
+        "images": "images/trousers1.jpg",
+        "prices": 20,
+        "sizes": "M"
+      },
+      {
+        "name": "Trousers 2",
+        "images": "images/trousers2.jpg",
+        "prices": 20,
+        "sizes": "M"
+      },
+      {
+        "name": "Trousers 3",
+        "images": "images/trousers3.jpg",
+        "prices": 22,
+        "sizes": "L"
+      },
+      {
+        "name": "Trousers 4",
+        "images": "images/trousers4.jpg",
+        "prices": 22,
+        "sizes": "L"
+      },
+      {
+        "name": "Trousers 5",
+        "images": "images/trousers5.jpg",
+        "prices": 23,
+        "sizes": "XL"
+      },
+      {
+        "name": "Trousers 6",
+        "images": "images/trousers6.jpg",
+        "prices": 23,
+        "sizes": "XL"
+      },
+      {
+        "name": "Trousers 7",
+        "images": "images/trousers7.jpg",
+        "prices": 25,
         "sizes": "XXL"
       },
       {
-        "name": "Slim Fit Tuxedo 1",
-        "images": "image7.jpg",
-        "prices": 28,
+        "name": "Trousers 8",
+        "images": "images/trousers8.jpg",
+        "prices": 25,
         "sizes": "XXL"
       },
       {
-        "name": "Slim Fit Tuxedo 1",
-        "images": "image7.jpg",
+        "name": "Trousers 9",
+        "images": "images/trousers9.jpg",
         "prices": 28,
-        "sizes": "XXL"
-      }
-
-    ],
-    "trousers": [
-      {
-        "name": "Chino Pants 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
+        "sizes": "XXXL"
       },
       {
-        "name": "Formal Dress Trousers 1",
-        "images": "image7.jpg",
+        "name": "Trousers 10",
+        "images": "images/trousers10.jpg",
         "prices": 28,
-        "sizes": "XXL"
+        "sizes": "XXXL"
       },
       {
-        "name": "Formal Dress Trousers 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
+        "name": "Shoes 1",
+        "images": "images/shoes1.jpg",
+        "prices": 22,
+        "sizes": "40"
       },
       {
-        "name": "Formal Dress Trousers 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
+        "name": "Shoes 2",
+        "images": "images/shoes2.jpg",
+        "prices": 22,
+        "sizes": "40"
       },
       {
-        "name": "Formal Dress Trousers 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
+        "name": "Shoes 3",
+        "images": "images/shoes3.jpg",
+        "prices": 26,
+        "sizes": "42"
       },
       {
-        "name": "Formal Dress Trousers 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
+        "name": "Shoes 4",
+        "images": "images/shoes4.jpg",
+        "prices": 26,
+        "sizes": "42"
       },
       {
-        "name": "Formal Dress Trousers 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
+        "name": "Shoes 5",
+        "images": "images/shoes5.jpg",
+        "prices": 27,
+        "sizes": "43"
       },
       {
-        "name": "Formal Dress Trousers 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
+        "name": "Shoes 6",
+        "images": "images/shoes6.jpg",
+        "prices": 27,
+        "sizes": "43"
       },
       {
-        "name": "Formal Dress Trousers 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
+        "name": "Shoes 7",
+        "images": "images/shoes7.jpg",
+        "prices": 22,
+        "sizes": "38"
       },
       {
-        "name": "Formal Dress Trousers 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
-      }
-      
-    ],
-    "shoes": [
-      {
-        "name": "Leather Oxford Shoes 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
+        "name": "Shoes 8",
+        "images": "images/shoes8.jpg",
+        "prices": 22,
+        "sizes": "38"
       },
       {
-        "name": "Sneakers 1",
-        "images": "image7.jpg",
+        "name": "Shoes 9",
+        "images": "images/shoes9.jpg",
         "prices": 28,
-        "sizes": "XXL"
+        "sizes": "44"
       },
       {
-        "name": "Leather Oxford Shoes 1",
-        "images": "image7.jpg",
+        "name": "Shoes 10",
+        "images": "images/shoes10.jpg",
         "prices": 28,
-        "sizes": "XXL"
-      },
-      {
-        "name": "Leather Oxford Shoes 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
-      },
-      {
-        "name": "Leather Oxford Shoes 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
-      },
-      {
-        "name": "Leather Oxford Shoes 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
-      },
-      {
-        "name": "Leather Oxford Shoes 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
-      },
-      {
-        "name": "Leather Oxford Shoes 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
-      },
-      {
-        "name": "Leather Oxford Shoes 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
-      },
-      {
-        "name": "Leather Oxford Shoes 1",
-        "images": "image7.jpg",
-        "prices": 28,
-        "sizes": "XXL"
+        "sizes": "44"
       }
       
-    ]
-  }
+  ]
   
   
   
