@@ -1,0 +1,11 @@
+body{
+    width: 18rem;
+    height: 20rem;  
+    margin-left: auto;
+    margin-right: auto;
+}
+#content {
+    background-color: black;
+    color: white;
+    text-align: center;
+}

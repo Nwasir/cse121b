@@ -122,13 +122,13 @@
       },
       {
         "name": "Trousers 1",
-        "images": "images/trousers1.jpg",
+        "images": "images/trousers10.jpg",
         "prices": 20,
         "sizes": "M"
       },
       {
         "name": "Trousers 2",
-        "images": "images/trousers2.jpg",
+        "images": "images/trousers3.jpg",
         "prices": 20,
         "sizes": "M"
       },
@@ -182,63 +182,123 @@
       },
       {
         "name": "Shoes 1",
-        "images": "images/shoes1.jpg",
+        "images": "images/shoe1.jpg",
         "prices": 22,
         "sizes": "40"
       },
       {
         "name": "Shoes 2",
-        "images": "images/shoes2.jpg",
+        "images": "images/shoe2.jpg",
         "prices": 22,
         "sizes": "40"
       },
       {
         "name": "Shoes 3",
-        "images": "images/shoes3.jpg",
+        "images": "images/shoe3.jpg",
         "prices": 26,
         "sizes": "42"
       },
       {
         "name": "Shoes 4",
-        "images": "images/shoes4.jpg",
+        "images": "images/shoe4.jpg",
         "prices": 26,
         "sizes": "42"
       },
       {
         "name": "Shoes 5",
-        "images": "images/shoes5.jpg",
+        "images": "images/shoe5.jpg",
         "prices": 27,
         "sizes": "43"
       },
       {
         "name": "Shoes 6",
-        "images": "images/shoes6.jpg",
+        "images": "images/shoe6.jpg",
         "prices": 27,
         "sizes": "43"
       },
       {
         "name": "Shoes 7",
-        "images": "images/shoes7.jpg",
+        "images": "images/shoe7.jpg",
         "prices": 22,
         "sizes": "38"
       },
       {
         "name": "Shoes 8",
-        "images": "images/shoes8.jpg",
+        "images": "images/shoe8.jpg",
         "prices": 22,
         "sizes": "38"
       },
       {
         "name": "Shoes 9",
-        "images": "images/shoes9.jpg",
+        "images": "images/shoe9.jpg",
         "prices": 28,
         "sizes": "44"
       },
       {
         "name": "Shoes 10",
-        "images": "images/shoes10.jpg",
+        "images": "images/shoe10.jpg",
         "prices": 28,
         "sizes": "44"
+      },
+      {
+        "name": "agbada 1",
+        "images": "images/senator1.jpg",
+        "prices": 22,
+        "sizes": "M"
+      },
+      {
+        "name": "agbada 2",
+        "images": "images/senator2.jpg",
+        "prices": 24,
+        "sizes": "L"
+      },
+      {
+        "name": "agbada 3",
+        "images": "images/senator3.jpg",
+        "prices": 26,
+        "sizes": "XL"
+      },
+      {
+        "name": "agbada 4",
+        "images": "images/senator4.jpg",
+        "prices": 28,
+        "sizes": "XXL"
+      },
+      {
+        "name": "agbada 5",
+        "images": "images/agbada5.jpg",
+        "prices": 30,
+        "sizes": "XXXL"
+      },
+      {
+        "name": "senator 1",
+        "images": "images/senator1.jpg",
+        "prices": 30,
+        "sizes": "M"
+      },
+      {
+        "name": "senator 2",
+        "images": "images/senator2.jpg",
+        "prices": 30,
+        "sizes": "L"
+      },
+      {
+        "name": "senator 3",
+        "images": "images/senator3.jpg",
+        "prices": 30,
+        "sizes": "XL"
+      },
+      {
+        "name": "senator 4",
+        "images": "images/senator4.jpg",
+        "prices": 30,
+        "sizes": "XXL"
+      },
+      {
+        "name": "senator 5",
+        "images": "images/senator5.jpg",
+        "prices": 30,
+        "sizes": "XXXL"
       }
       
   ]

@@ -3,41 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Jimrex Collection</title>
-    <link rel="stylesheet" href="styles/main.css">
-    <script src="script/scripts.js" defer></script>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
-    <nav>
-        <ul id="menu">
-          <li><a id="toggleMenu">&equiv;</a></li>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">FAQ</a></li>
-        </ul>
-      </nav>
-      <main id="gridly">
-        <h1> Jimrex Collection - A Next-Generation Clothing Store</h1>
-        <h2>Select some Outfit</h2>
+    <div id="content">
+    <h1>Weather App</h1><hr>
     
-        <select id="choice" title="Choose a data filter.">
-          <option value="" disabled selected>OutFit</option>
-          <option value="shirts">Shirts</option>
-          <option value="shoes">shoes</option>
-          <option value="suits">Suits</option>      
-          <option value="trousers">Trousers</option>
-        </select>
+    <div>
+        <label for="location">Enter a location:</label><br>
+        <input type="text" id="location" placeholder="Enter city or ZIP code"><br>
+        <button id="get-weather">Get Weather</button>
+    </div>
     
-        <div id="myOufit">
-        </div>
-      </main>
+    <div id="weather-info"> </div>
     
-    
-      <footer>
-        &copy;<span id="year"></span>  CSE 121b PROJECT
-      </footer>
-      <script>
-        document.getElementById("year").innerHTML = new Date().getFullYear();
-      </script>
+    <script type="module" src="script/main.js"></script>
+    <footer><hr>
+        <span>weather data source <a href="https://openweathermap.org/">Open weather map</a></span>
+    </footer>
+</div>
 </body>
 </html>
